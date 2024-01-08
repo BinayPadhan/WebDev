@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#b5a3f7 ,#f58484 );
+    /* background-color: #004040; */
+}
+
+.container {
+
+    width: 280px;
+    /* height: 324px; */
+
+    position: absolute;
+    top: 20%;
+    border: 1px solid black;
+    border-radius: 23px;
+    background: #100c08;
+    /* box-shadow: 4px 4px 4px #36454F; */
+}
+
+.numbers {
+    display: block;
+    text-align: center;
+    margin: 30px 0px;
+
+}
+
+.btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 6px;
+    /* padding: 3px; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 19px;
+    background-color: transparent;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    /* opacity: 0.3; */
+    background: #36454F;
+}
+
+.input {
+    height: 95px;
+    width: 236px;
+    padding: 20px;
+    border-radius: 23px;
+    border: none;
+    background: transparent;
+    /* border: 2px solid wheat; */
+    color: white;
+    text-align: right;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+.input:focus {
+    outline: none;
+}
+.p-1{
+    color: white;
+}
+.p-2{
+    color: orangered;
+}
+.p-3{
+    color: white;
+    background-color: orangered;
+}
+.p-3:hover{
+    /* color: white; */
+    background-color: red;
+}
+hr{
+    width: 90%;
+    height: 0.1px;
+    background-color: white;
+    border: none;
+    /* border-top: 1px solid white; */
+}
