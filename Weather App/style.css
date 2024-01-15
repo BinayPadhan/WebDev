@@ -20,10 +20,6 @@ body {
     align-items: center;
     margin-top: 100px;
     border-radius: 20px;
-    background: url('images/113.jpg');
-    background: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%);
-    background: linear-gradient(to bottom, #163C52 0%,#4F4F47 30%,#C5752D 60%,#B7490F 80%, #2F1107 100%);
-    background: linear-gradient(to bottom, #154277 0%,#576e71 30%,#e1c45e 70%,#b26339 100%);
     background: linear-gradient(to bottom, #1e528e 0%,#728a7c 50%,#e9ce5d 100%);
 }
 
@@ -99,4 +95,9 @@ h2 {
     color: white;
     font-size: 18px;
     font-family: 'Fahkwang', sans-serif;
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: 100%;
+    }
 }
